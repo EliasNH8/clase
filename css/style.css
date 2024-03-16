@@ -1,35 +1,51 @@
 header {
     display: flex;
+    border-radius: 15px;
     width: 100%;
     height: 4rem;
     align-content: center;
     justify-content: space-between;
-    background-color: #557996;
+    background: #14293a9d;
 }
 
 .container {
     display: flex;
-    
 }
 
 body {
-    background-color: #000A23;
+    background-image: url(../img/fondo.png);
+    background-size: cover;
     color: white;
 }
 
 article {
+    border-radius: 15px;
     display: flex;
     width: 50%;
     height: 35rem;
-    background-color: #94B8D7;
-    color: black;
+    background: #14293a9d;
+    color: white;
 }
 
 div.content {
+    border-radius: 15px;
     display: flex;
     width: 40%;
     height: 35rem;
     float: right;
-    background-color: #94B8D7;
-    color: black;
+    background: #14293a9d;
+    color: white;
+}
+
+.image {
+    width: 800px;
+    height: 1400px;
+}
+
+footer {
+    display: flex;
+    margin-top: 10px;
+    height: 5rem;
+    width: 100%;
+    background: rgba(9, 71, 95, 0.747);
 }
