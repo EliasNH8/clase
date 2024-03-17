@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: #441e09;
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -15,12 +16,12 @@ header {
     background-color: #f3d96a;
     color: #000000;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 20x;
 }
 
 header nav {
@@ -38,11 +39,11 @@ header nav a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 10px;
 }
 
 section.contenido {
-    padding: 290px;
+    padding: 165px;
     background-color: #a0520f;
     color: white;
     text-align: justify;
