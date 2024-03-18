@@ -9,19 +9,22 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #f3d96a;
+    background-color: #E9CB8E;
     color: #000000;
     text-align: center;
-    padding: 10px 0;
-    min-height: 10vh;
+    padding: 20px 0;
+    min-height: 10vh
 }
 
 header h1 {
     margin: 0;
-    font-size: 20x;
+    font-size: 24px;
 }
 
 header nav {
@@ -38,29 +41,40 @@ header nav a:hover {
     color: #5e2d07;
 }
 
-main {
-    padding: 10px;
-    min-height: 10vh;
-}
-
-section.contenido {
-    padding: 110px;
-    background-color: #a0520f;
-    color: white;
+.contenedor {
+    background-color: #5e2d07;
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
     text-align: justify;
 }
 
-section.contenido h2 {
+.imagen {
+    flex: 0 0 450px;
+    margin-right: 20px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenido {
+    flex: 1;
+    /* Permite que el contenido llene el espacio restante */
+}
+
+.contenido h2 {
     margin-top: 0;
     font-size: 18px;
 }
 
-section.contenido p {
+.contenido p {
     margin-bottom: 10px;
 }
 
 footer {
-    background-color: #f3d96a;
+    background-color: #E9CB8E;
     color: #000000;
     text-align: center;
     padding: 10px;
