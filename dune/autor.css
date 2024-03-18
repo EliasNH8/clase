@@ -47,6 +47,7 @@ header nav a:hover {
     flex-wrap: wrap;
     color: aliceblue;
     text-align: justify;
+    margin-right: 25px;
 }
 
 .imagen {
