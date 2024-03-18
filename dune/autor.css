@@ -51,6 +51,8 @@ header nav a:hover {
 
 .imagen {
     flex: 0 0 450px;
+    margin-top: 33px;
+    margin-left: 33px;
     margin-right: 20px;
 }
 
@@ -61,7 +63,6 @@ header nav a:hover {
 
 .contenido {
     flex: 1;
-    /* Permite que el contenido llene el espacio restante */
 }
 
 .contenido h2 {
